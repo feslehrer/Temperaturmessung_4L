@@ -1,0 +1,56 @@
+# Unterrichtsprojekt: Temperaturmessung mit PT100 und 4-Leiter-Schaltung
+Temperaturmessung gehört zu den Standardanwendung in der Mess-, Steuer- und Regelungstechnik. 
+### **Was wird benötigt?**
+**Software**
++ MultisimLive-Account (kostenlos oder Premium) oder anderes Simulationsprogramm (z.B. LTSpice).
++ MS-Excel oder gleichwertige Tabellenkalkulation.
++ FA205-Funktionsbibliotheken (delay, in_out, interrupt, lcd, communication)
++ <a href ="https://www.microchip.com/en-us/tools-resources/develop/microchip-studio">MicrochipStudio (IDE)</a>
+ mit <a href ="https://github.com/feslehrer/FA205.git">FA205-Bibliotheken</a>
++ oder <a href="https://www.arduino.cc/en/software/?_gl=1*sbuq35*_up*MQ..*_ga*MjU4NDg3MTE4LjE3NTg3NDcyOTA.*_ga_NEXN8H46L5*czE3NTg3NDcyOTAkbzEkZzAkdDE3NTg3NDcyOTAkajYwJGwwJGgxNDgzNTc4MjM2#ide">Arduino (IDE)</a>
+mit FA205-Bibliotheken für <a href="https://github.com/feslehrer/FA205-ESP32.git">ESP32</a>
+oder <a href="https://github.com/feslehrer/FA205_Library_for_Arduino.git">ArduinoUno/Nano</a>
+### Weitere FA205-Implementierungen
+Implementierungen sind für folgende Plattformen verfügbar: 
++ ATmega328P-Xplained Mini mit Microchip-Studio: 
++ ArduinoUno/Nano mit ATmega328P und ArduinoIDE: https://github.com/feslehrer/FA205_Library_for_Arduino.git
+
+## Installation
++ Auf GitHub Resource: https://github.com/feslehrer/FA205-ESP32.git
+<br>Download der Bibliothek als Zip-Datei (<>Code --> Download Zip)
++ In der Arduino-IDE auf **Sketch --> Bibliothek einbinden --> .Zip-Bibliothek hinzufügen...**
++ Im Sketch muss **controller.h** inkludiert werden.
+<br>Beispiel: Blink-Sketch mit FA205-Funktionen
+```c
+#include "controller.h"     // FA205-Bibliotheken einbinden
+
+void setup(void)
+{
+  bit_init(PORTx,7,OUT);    // PORTx,7 als Ausgang initialisieren
+}
+
+void loop(void)
+{
+  bit_write(PORTx,7,0);      // PORTx,7 --> 0
+  delay_ms(500);             // 500ms warten
+  bit_write(PORTx,7,1);      // PORTx,7 --> 1
+  delay_ms(500);             // 500ms warten
+}
+```
+**Anmerkung:** Im Boardmanager muss das ESP32 Boardpackage (ab Version 3.x) installiert sein. Als Board wird **ESP32 PICO-D4** ausgewählt.
+## Implementierung für Arduino-IDE
+Die Richtlinien-Funktionen mussten für die Verwendung in der Arduino-IDE leicht modifiziert werden. Die Änderungen sind im einzelnen:
+#### 8-Bit-Ports (Byte): 
++ Da der ESP32 keine 8 Bit-Ports mehr besitzt, wurden 8 Pins zum **PORTx** zusammengefasst, damit die 8 LEDs auf dem ESP32-Carrier-Board mit einem einzigen Byte-Zugriff geschrieben werden können. 8 weitere Pins wurden zum **PORTy** zusammengefasst. Hier befinden sich u.a. die 4 Taster des ESP32-Carrier-Boards (siehe unten).
+#### Zeichenketten: 
++ Abweichend von der Definition in der Technischen Richtlinie müssen für die Funktionen `lcd_print()` und `rs232_print()` konstante Zeichenketten vom Typ **char** und nicht **uint8_t** übergeben werden.
+  ```c
+  char text[] = "Hallo Welt";     // Definition als char und nicht uint8_t
+  
+  lcd_print ( text );
+  rs232_print ( text );
+  ```
+  alternativ:
+  ```c
+  lcd_print ( "Hallo Welt" );
+  ```
