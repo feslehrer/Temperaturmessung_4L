@@ -1,15 +1,25 @@
 # Unterrichtsprojekt: Temperaturmessung mit PT100 und 4-Leiter-Schaltung
 Temperaturmessung gehört zu den Standardanwendung in der Mess-, Steuer- und Regelungstechnik. 
+<img src="https://github.com/user-attachments/assets/c56eee07-a990-43ef-b775-0674f715a58f" alt="Arduino-Carrier-Board mit ATMega3238PXPlainedMini und Temperaturmessplatine" width="500">
+
 ### **Was wird benötigt?**
 **Software**
 + MultisimLive-Account (kostenlos oder Premium) oder anderes Simulationsprogramm (z.B. LTSpice).
 + MS-Excel oder gleichwertige Tabellenkalkulation.
-+ FA205-Funktionsbibliotheken (delay, in_out, interrupt, lcd, communication)
 + <a href ="https://www.microchip.com/en-us/tools-resources/develop/microchip-studio">MicrochipStudio (IDE)</a>
  mit <a href ="https://github.com/feslehrer/FA205.git">FA205-Bibliotheken</a>
 + oder <a href="https://www.arduino.cc/en/software/?_gl=1*sbuq35*_up*MQ..*_ga*MjU4NDg3MTE4LjE3NTg3NDcyOTA.*_ga_NEXN8H46L5*czE3NTg3NDcyOTAkbzEkZzAkdDE3NTg3NDcyOTAkajYwJGwwJGgxNDgzNTc4MjM2#ide">Arduino (IDE)</a>
 mit FA205-Bibliotheken für <a href="https://github.com/feslehrer/FA205-ESP32.git">ESP32</a>
 oder <a href="https://github.com/feslehrer/FA205_Library_for_Arduino.git">ArduinoUno/Nano</a>
+</br>**Hardware**
++ <a href="https://ase-schlierbach.de/produkt/arduino-carrier-board_fertigprodukt/">Arduino-Carrier-Board</a> oder
+  gleichwertiges Arduino-Board mit Uno-Formfaktor und LC-Display.
++ ATmega328PXplainedMini-Controllerboard für MicrochipStudio oder Arduino Uno/Nano mit ATmega328P-Controller
++ (Alternativ: <a href="https://ase-schlierbach.de/produkt/esp32-carrier-board-v1-5/">ESP32-Carrier-Board mit ESP32PicoKit</a>)
++ <a href="https://ase-schlierbach.de/kontakt/">PT100-Temperaturmess-Platine</a> (Anfrage Formular)
+<img src="https://github.com/user-attachments/assets/25e51c46-99d9-4df9-ba7d-5bb1d87641d1" alt="PT100-Messplatine" width="300">
+
+
 ### Weitere FA205-Implementierungen
 Implementierungen sind für folgende Plattformen verfügbar: 
 + ATmega328P-Xplained Mini mit Microchip-Studio: 
