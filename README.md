@@ -1,11 +1,14 @@
 # Unterrichtsprojekt: Temperaturmessung mit PT100 und 4-Leiter-Schaltung
-Das Projekt "Temperaturmessung mit PT100 in 4-Leiterschaltung" ist als Lernfeld-übergreifendes Unterrichtsprojekt für **Elektroniker für Geräte und Systeme** entstanden. Das Projekt lässt sich in Teilgebiete gleidern und auch zeitlich über die Fachstufe verteilen. Es werden Lerninhalte aus mehreren Lernfeldern geübt, vertieft und lernwirksam gefestigt. Dies sind untger anderm:
+Das Projekt "Temperaturmessung mit PT100 in 4-Leiterschaltung" ist als Lernfeld-übergreifendes Unterrichtsprojekt für **Elektroniker für Geräte und Systeme** entstanden. Das Projekt lässt sich in Teilgebiete gleidern und auch zeitlich über die Fachstufe verteilen. Es werden Lerninhalte aus mehreren Lernfeldern geübt, vertieft und lernwirksam gefestigt. Dies sind unter Anderem:
 + Temperatursensor PT100 (Exemplarisch für Temperaturabhängigkeit von Metallen)
 + Operationsverstärker Grundschaltungen (Invertierender/Nichtinvertierender Verstärker, Subtrahierverstärker, Instrumentenverstärker, ...)
 + Messwertverarbeitung mit Excel (Formeln, Diagramme)
 + Sensorschaltungen (Brückenschaltung, Konstantstromquelle, 2-,3- und 4-Leiterschaltung)
 + Schaltungsabgleich (Simulation/Real)
 + Erstellen eines Abgleichprogramms mit Technischer Richtlinie FA205
+
+Die Lösungen und fertigen Programmcodes sind in der Passwort-geschützten Datei **docx.zip** enthalten. Als Lehrer kontaktieren Sie mich über bei Bedarf unter <a href="mailto:rahm@fes-es.de"> E-Mail </a>
+
 
 #### Schaltungsbeschreibung
 Die 4-Leiterschaltung besteht im wesentlichen aus einer Stromquelle, die den Sensor über 2 Leitungen mit einem temperaturunabhängigen, konstanten Messstrom versorgt. Über die beiden Spannungsabgriffe am PT100 wird dann eine lineare Messspannung abgegriffen, die nur noch vom temperaturabhängigen Widerstand selbst abhängt. Der Verstärker mit hochohmigem Eingang sorgt dafür, dass die Spannung möglichst gut auf den Eingangsspannungsbereich des AD-Wandlers angepasst wird. 
