@@ -14,10 +14,9 @@ Die 4-Leiterschaltung besteht im wesentlichen aus einer Stromquelle, die den Sen
 
 <img width="600" alt="4-Leiterschaltung. Schema" src="https://github.com/user-attachments/assets/7263ae91-febd-4821-a0ea-012f24b9749e" />
 
-Der Signalfluss lässt sich folgendermaßen mittels Blockschaltbild darstellen:
+Der Signalfluss des Analogteils lässt sich folgendermaßen mittels Blockschaltbild darstellen:
 
 <img width="600" alt="Blockschaltbild der Messkette" src="https://github.com/user-attachments/assets/782025e0-17fb-40f1-b05c-de2a26e3d6ca" />
-
 
 ### **Was wird benötigt?**
 <img src="https://github.com/user-attachments/assets/c56eee07-a990-43ef-b775-0674f715a58f" alt="Arduino-Carrier-Board mit ATMega3238PXPlainedMini und Temperaturmessplatine" width="500">
