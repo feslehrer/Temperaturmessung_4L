@@ -7,8 +7,7 @@ Das Projekt "Temperaturmessung mit PT100 in 4-Leiterschaltung" ist als Lernfeld-
 + Schaltungsabgleich (Simulation/Real)
 + Erstellen eines Abgleichprogramms mit Technischer Richtlinie FA205
 
-Die Lösungen und fertigen Programmcodes sind in der Passwort-geschützten Datei **docx.zip** enthalten. Als Lehrer kontaktieren Sie mich über bei Bedarf unter <a href="mailto:rahm@fes-es.de"> E-Mail </a>
-
+Die Lösungen und fertigen Programmcodes sind in der Passwort-geschützten Datei **docx.zip** enthalten. Als Lehrer kontaktieren Sie mich bei Bedarf über: rahm@fes-es.de
 
 #### Schaltungsbeschreibung
 Die 4-Leiterschaltung besteht im wesentlichen aus einer Stromquelle, die den Sensor über 2 Leitungen mit einem temperaturunabhängigen, konstanten Messstrom versorgt. Über die beiden Spannungsabgriffe am PT100 wird dann eine lineare Messspannung abgegriffen, die nur noch vom temperaturabhängigen Widerstand selbst abhängt. Der Verstärker mit hochohmigem Eingang sorgt dafür, dass die Spannung möglichst gut auf den Eingangsspannungsbereich des AD-Wandlers angepasst wird. 
