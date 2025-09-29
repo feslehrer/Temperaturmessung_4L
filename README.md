@@ -38,25 +38,4 @@ oder <a href="https://github.com/feslehrer/FA205_Library_for_Arduino.git">Arduin
 + <a href="https://ase-schlierbach.de/kontakt/">PT100-Temperaturmess-Platine</a> (Anfrage Formular)
 <img src="https://github.com/user-attachments/assets/25e51c46-99d9-4df9-ba7d-5bb1d87641d1" alt="PT100-Messplatine" width="300">
 
-
-
-
-
-<br>Beispiel: Blink-Sketch mit FA205-Funktionen
-```c
-#include "controller.h"     // FA205-Bibliotheken einbinden
-
-void setup(void)
-{
-  bit_init(PORTx,7,OUT);    // PORTx,7 als Ausgang initialisieren
-}
-
-void loop(void)
-{
-  bit_write(PORTx,7,0);      // PORTx,7 --> 0
-  delay_ms(500);             // 500ms warten
-  bit_write(PORTx,7,1);      // PORTx,7 --> 1
-  delay_ms(500);             // 500ms warten
-}
-```
 @rah, 2025.09.29
