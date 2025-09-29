@@ -1,10 +1,13 @@
 # Unterrichtsprojekt: Temperaturmessung mit PT100 und 4-Leiter-Schaltung
+Das Projekt "Temperaturmessung mit PT100 in 4-Leiterschaltung" ist im Rahmen meines Unterrichts für Elektroniker für Geräte und Systeme an der Friedrich-Ebert-Schule in Esaslingen entstanden. Es werden Lerninhalte aus mehreren Lernfeldern vertieft, gefestigt und wiederholt. Einzelne Teile des Projektes lassen sich am 
+Dazu zählen
 Temperaturmessung gehört zu den Standardanwendung in der Mess-, Steuer- und Regelungstechnik. 
 <img src="https://github.com/user-attachments/assets/c56eee07-a990-43ef-b775-0674f715a58f" alt="Arduino-Carrier-Board mit ATMega3238PXPlainedMini und Temperaturmessplatine" width="500">
 
+
 ### **Was wird benötigt?**
 **Software**
-+ MultisimLive-Account (kostenlos oder Premium) oder anderes Simulationsprogramm (z.B. LTSpice).
++ <a href="https://www.multisim.com/">MultisimLive-Account</a> (kostenlos oder Premium) oder anderes Simulationsprogramm (z.B. LTSpice).
 + MS-Excel oder gleichwertige Tabellenkalkulation.
 + <a href ="https://www.microchip.com/en-us/tools-resources/develop/microchip-studio">MicrochipStudio (IDE)</a>
  mit <a href ="https://github.com/feslehrer/FA205.git">FA205-Bibliotheken</a>
