@@ -1,4 +1,4 @@
-# Unterrichtsprojekt: Temperaturmessung mit PT100 und 4-Leiter-Schaltung
+# Unterrichtsprojekt: Temperaturmessung mit PT100 in 4-Leiter-Schaltung
 Das Projekt "Temperaturmessung mit PT100 in 4-Leiterschaltung" ist als Lernfeld-übergreifendes Unterrichtsprojekt für **Elektroniker für Geräte und Systeme** entstanden. Das Projekt lässt sich in Teilgebiete gleidern und auch zeitlich über die Fachstufe verteilen. Es werden Lerninhalte aus mehreren Lernfeldern geübt, vertieft und lernwirksam gefestigt:
 + Temperatursensor PT100 (Exemplarisch für Temperaturabhängigkeit von Metallen)
 + Operationsverstärker Grundschaltungen (Invertierender/Nichtinvertierender Verstärker, Subtrahierverstärker, Instrumentenverstärker, ...)
