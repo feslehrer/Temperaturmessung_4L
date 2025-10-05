@@ -16,7 +16,7 @@ Die 4-Leiterschaltung besteht im wesentlichen aus einer Stromquelle, die den Sen
 
 Der Signalfluss des Analogteils lässt sich folgendermaßen mittels Blockschaltbild darstellen:
 
-<img width="600" alt="Blockschaltbild der Messkette" src="https://github.com/user-attachments/assets/782025e0-17fb-40f1-b05c-de2a26e3d6ca" />
+<img width="600" alt="Blockschaltbild der Messkette" src="https://github.com/user-attachments/assets/782025e0-17fb-40f1-b05c-de2a26e3d6ca" /><br>
 Die lineare Widerstandskennlinie über den gesamten Messbereich von -25°C ... 100°C wird in eine lineare Spannungsänderung transformiert und in der ersten Verstärkerstufe um den Faktor 5 verstärkt. Anschließend wird ein Offset abgezogen, bevor in der zweiten Verstärkerstufe die Anpassung an den Messbereich des AD-Wandlers erfolgt.
 
 ### **Was wird benötigt?**
