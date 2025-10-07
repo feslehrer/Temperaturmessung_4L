@@ -39,4 +39,14 @@ oder <a href="https://github.com/feslehrer/FA205_Library_for_Arduino.git">Arduin
 + <a href="https://ase-schlierbach.de/kontakt/">PT100-Temperaturmess-Platine</a> (Anfrage Formular)
 <img src="https://github.com/user-attachments/assets/25e51c46-99d9-4df9-ba7d-5bb1d87641d1" alt="PT100-Messplatine" width="300">
 
+### **Arbeitsaufträge**
+**0. Sensor**
+1. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/0_Sensor_PT100/1_2_1_Temperaturmessung_mit_PT100_FTM1.pdf">PT100-Sensor</a>
+2. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/0_Sensor_PT100/1_8_1_Tempabhaengigkeit_von_Metallen_LF1.pdf">Kennlinienaufnahme (Versuch)</a>
+#### 1. Schaltungstheorie
+3. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/1_Schaltungstheorie/1_1_PT100_Sensor_mit_Spannungsteiler.pdf">PT100-Sensor mit Spannungsteiler</a> Simulation: <a href="https://www.multisim.com/content/ztNrqoLsVMBNv6kWRXQJ3Y/1_1_pt100-sensor_spannungsteiler/open/">MultisimLive</a>
+
+
+
+
 @rah, 2025.09.29
