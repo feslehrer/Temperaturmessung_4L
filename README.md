@@ -40,23 +40,29 @@ oder <a href="https://github.com/feslehrer/FA205_Library_for_Arduino.git">Arduin
 <img src="https://github.com/user-attachments/assets/25e51c46-99d9-4df9-ba7d-5bb1d87641d1" alt="PT100-Messplatine" width="300">
 
 ### **Arbeitsaufträge**
-+ Sensor
-1. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/0_Sensor_PT100/1_2_1_Temperaturmessung_mit_PT100_FTM1.pdf">PT100-Sensor</a>
-2. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/0_Sensor_PT100/1_8_1_Tempabhaengigkeit_von_Metallen_LF1.pdf">Kennlinienaufnahme (Versuch)</a>
-+ Schaltungstheorie
-3. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/1_Schaltungstheorie/1_1_PT100_Sensor_mit_Spannungsteiler.pdf">PT100-Sensor mit Spannungsteiler</a> Simulation: <a href="https://www.multisim.com/content/ztNrqoLsVMBNv6kWRXQJ3Y/1_1_pt100-sensor_spannungsteiler/open/">MultisimLive</a>
-4. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/1_Schaltungstheorie/1_2_PT100_Sensor_mit_Spannungsteiler_und_OPV.pdf">Spannungsteiler mit OPV</a> Simulation: <a href="https://kurzelinks.de/pd39">MultisimLive</a>
-5. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/1_Schaltungstheorie/1_3_1_Exkurs_Subtrahierverstaerker.pdf">Exkurs Subtrahierverstärker</a> Simulation: <a href="https://kurzelinks.de/od7v">MultisimLive</a>
-6. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/1_Schaltungstheorie/1_3_2_1_PT100_Sensor_mit_Brueckenschaltung_ohne_RLtg.pdf">Sensor in Brückenschaltung</a> Simulation: <a href="https://kurzlinks.de/k2ep">MultisimLive</a>
-7. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/1_Schaltungstheorie/1_3_2_PT100_Sensor_mit_Brueckenschaltung.pdf">Brückenschaltung mit Leitungswiderständen</a> Simulation: <a href="https://kurzelinks.de/1xkf">MultisimLive</a>
-8. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/1_Schaltungstheorie/1_4_1_Exkurs_Instrumentenverstaerker.pdf">Exkurs: Instrumentenverstärker</a> Simulation: <a href="https://kurzelinks.de/ydv8">MultisimLive</a>
-9. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/1_Schaltungstheorie/1_4_2_PT100_Sensor_mit_Instrumentenverstaerker.pdf">Brückenschaltung mit Instrumentenverstärker</a> Simulation: <a href="https://kurzelinks.de/4v5m">MultisimLive</a>
-10. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/1_Schaltungstheorie/1_5_1_PT100_Sensor_in_Vierleiterschaltung.pdf">Sensor in 4-Leiterschaltung</a> Simulation: <a href="https://kurzelinks.de/ipss">MultisimLive</a>
-11. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/1_Schaltungstheorie/1_5_2_PT100_Sensor_in_Vierleiterschaltung_mit_2_INA.pdf">4-Leiterschaltung mit Offset-Kompensation</a> Simulation: <a href="https://kurzelinks.de/m65m">MultisimLive</a>
-12. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/1_Schaltungstheorie/1_5_3_Konstantstromquelle_mit_LM317.pdf">Konstantstromquelle mit LM317</a> Simulation: <a href="https://kurzelinks.de/vvo9">MultisimLive</a>
-
-12. <a href=""></a> Simulation: <a href="">MultisimLive</a>
-
-
++ **Sensor**
+ 1. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/0_Sensor_PT100/1_2_1_Temperaturmessung_mit_PT100_FTM1.pdf">PT100-Sensor</a>
+ 2. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/0_Sensor_PT100/1_8_1_Tempabhaengigkeit_von_Metallen_LF1.pdf">Kennlinienaufnahme (Versuch)</a>
++ **Schaltungstheorie**
+ 3. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/1_Schaltungstheorie/1_1_PT100_Sensor_mit_Spannungsteiler.pdf">PT100-Sensor mit Spannungsteiler</a> Simulation: <a href="https://www.multisim.com/content/ztNrqoLsVMBNv6kWRXQJ3Y/1_1_pt100-sensor_spannungsteiler/open/">MultisimLive</a>
+ 4. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/1_Schaltungstheorie/1_2_PT100_Sensor_mit_Spannungsteiler_und_OPV.pdf">Spannungsteiler mit OPV</a> Simulation: <a href="https://kurzelinks.de/pd39">MultisimLive</a>
+ 5. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/1_Schaltungstheorie/1_3_1_Exkurs_Subtrahierverstaerker.pdf">Exkurs Subtrahierverstärker</a> Simulation: <a href="https://kurzelinks.de/od7v">MultisimLive</a>
+ 6. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/1_Schaltungstheorie/1_3_2_1_PT100_Sensor_mit_Brueckenschaltung_ohne_RLtg.pdf">Sensor in Brückenschaltung</a> Simulation: <a href="https://kurzlinks.de/k2ep">MultisimLive</a>
+ 7. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/1_Schaltungstheorie/1_3_2_PT100_Sensor_mit_Brueckenschaltung.pdf">Brückenschaltung mit Leitungswiderständen</a> Simulation: <a href="https://kurzelinks.de/1xkf">MultisimLive</a>
+ 8. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/1_Schaltungstheorie/1_4_1_Exkurs_Instrumentenverstaerker.pdf">Exkurs: Instrumentenverstärker</a> Simulation: <a href="https://kurzelinks.de/ydv8">MultisimLive</a>
+ 9. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/1_Schaltungstheorie/1_4_2_PT100_Sensor_mit_Instrumentenverstaerker.pdf">Brückenschaltung mit Instrumentenverstärker</a> Simulation: <a href="https://kurzelinks.de/4v5m">MultisimLive</a>
+ 10. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/1_Schaltungstheorie/1_5_1_PT100_Sensor_in_Vierleiterschaltung.pdf">Sensor in 4-Leiterschaltung</a> Simulation: <a href="https://kurzelinks.de/ipss">MultisimLive</a>
+ 11. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/1_Schaltungstheorie/1_5_2_PT100_Sensor_in_Vierleiterschaltung_mit_2_INA.pdf">4-Leiterschaltung mit Offset-Kompensation</a> Simulation: <a href="https://kurzelinks.de/m65m">MultisimLive</a>
+ 12. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/1_Schaltungstheorie/1_5_3_Konstantstromquelle_mit_LM317.pdf">Konstantstromquelle mit LM317</a> Simulation: <a href="https://kurzelinks.de/vvo9">MultisimLive</a>
++ **Programmierung**
+ 13. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/2_Programmierung/3_1_ADS1286_Datenblatt.pdf">Datenblatt ADS1286</a>
+ 14. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/2_Programmierung/3_2_1_Sensor_auslesen_Code.pdf">Sensor auslesen Code (mit Technischer Richtlinie FA205)</a>
+ 15. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/2_Programmierung/3_2_2_Sensor_auslesen_SPI_lsg.pdf">Ergänzung: Auslesen über SPI-Schnittstelle</a>
+ 16. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/2_Programmierung/3_3_1_Temperaturmessung_Code.pdf">Temperatur berechnen (FA205)</a>
++ **Schaltungsabgleich**
+ 17. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/3_Schaltungsabgleich/2_1_Prinzip_Vierleitermessung.pdf">Prinzip 4-Leitermessung</a>
+ 18. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/3_Schaltungsabgleich/2_2_Uebung_Abgleich_Messplatine.pdf">Abgleich der Sensorplatine</a>
++ **Versuch**
+ 19. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/4_Versuche/1_3_2_2_PT100_Sensor_mit_Brueckenschaltung_Versuch.pdf">Versuch: Sensor in Brückenschaltung mit Subtrahierverstärker</a> (Vergleich: Simulation und Realversuch)
 
 @rah, 2025.09.29
