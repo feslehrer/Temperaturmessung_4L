@@ -40,11 +40,21 @@ oder <a href="https://github.com/feslehrer/FA205_Library_for_Arduino.git">Arduin
 <img src="https://github.com/user-attachments/assets/25e51c46-99d9-4df9-ba7d-5bb1d87641d1" alt="PT100-Messplatine" width="300">
 
 ### **Arbeitsaufträge**
-**0. Sensor**
++ Sensor
 1. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/0_Sensor_PT100/1_2_1_Temperaturmessung_mit_PT100_FTM1.pdf">PT100-Sensor</a>
 2. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/0_Sensor_PT100/1_8_1_Tempabhaengigkeit_von_Metallen_LF1.pdf">Kennlinienaufnahme (Versuch)</a>
-#### 1. Schaltungstheorie
++ Schaltungstheorie
 3. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/1_Schaltungstheorie/1_1_PT100_Sensor_mit_Spannungsteiler.pdf">PT100-Sensor mit Spannungsteiler</a> Simulation: <a href="https://www.multisim.com/content/ztNrqoLsVMBNv6kWRXQJ3Y/1_1_pt100-sensor_spannungsteiler/open/">MultisimLive</a>
+4. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/1_Schaltungstheorie/1_2_PT100_Sensor_mit_Spannungsteiler_und_OPV.pdf">Spannungsteiler mit OPV</a> Simulation: <a href="https://kurzelinks.de/pd39">MultisimLive</a>
+5. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/1_Schaltungstheorie/1_3_1_Exkurs_Subtrahierverstaerker.pdf">Exkurs Subtrahierverstärker</a> Simulation: <a href="https://kurzelinks.de/od7v">MultisimLive</a>
+6. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/1_Schaltungstheorie/1_3_2_1_PT100_Sensor_mit_Brueckenschaltung_ohne_RLtg.pdf">Sensor in Brückenschaltung</a> Simulation: <a href="https://kurzlinks.de/k2ep">MultisimLive</a>
+7. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/1_Schaltungstheorie/1_3_2_PT100_Sensor_mit_Brueckenschaltung.pdf">Brückenschaltung mit Leitungswiderständen</a> Simulation: <a href="https://kurzelinks.de/1xkf">MultisimLive</a>
+8. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/1_Schaltungstheorie/1_4_1_Exkurs_Instrumentenverstaerker.pdf">Exkurs: Instrumentenverstärker</a> Simulation: <a href="https://kurzelinks.de/ydv8">MultisimLive</a>
+9. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/1_Schaltungstheorie/1_4_2_PT100_Sensor_mit_Instrumentenverstaerker.pdf">Brückenschaltung mit Instrumentenverstärker</a> Simulation: <a href="https://kurzelinks.de/4v5m">MultisimLive</a>
+10. <a href=""></a> Simulation: <a href="">MultisimLive</a>
+11. <a href=""></a> Simulation: <a href="">MultisimLive</a>
+12. <a href=""></a> Simulation: <a href="">MultisimLive</a>
+
 
 
 
