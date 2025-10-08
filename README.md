@@ -39,7 +39,7 @@ oder <a href="https://github.com/feslehrer/FA205_Library_for_Arduino.git">Arduin
 + <a href="https://ase-schlierbach.de/kontakt/">PT100-Temperaturmess-Platine</a> (Anfrage Formular)
 <img src="https://github.com/user-attachments/assets/25e51c46-99d9-4df9-ba7d-5bb1d87641d1" alt="PT100-Messplatine" width="300">
 
-### **Arbeitsaufträge**
+### **Arbeitsaufträge und Informationsblätter**
 + **Sensor**
  1. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/0_Sensor_PT100/1_2_1_Temperaturmessung_mit_PT100_FTM1.pdf">PT100-Sensor</a>
  2. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/0_Sensor_PT100/1_8_1_Tempabhaengigkeit_von_Metallen_LF1.pdf">Kennlinienaufnahme (Versuch)</a>
