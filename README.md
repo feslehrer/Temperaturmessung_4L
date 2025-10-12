@@ -66,4 +66,4 @@ oder <a href="https://github.com/feslehrer/FA205_Library_for_Arduino.git">Arduin
 + **Versuch**
  20. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/4_Versuche/1_3_2_2_PT100_Sensor_mit_Brueckenschaltung_Versuch.pdf">Versuch: Sensor in Brückenschaltung mit Subtrahierverstärker</a> (Vergleich: Simulation und Realversuch)
 
-@rah, 2025.09.29
+@rah, 12.10.2025
