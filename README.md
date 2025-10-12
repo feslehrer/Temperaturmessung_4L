@@ -62,7 +62,8 @@ oder <a href="https://github.com/feslehrer/FA205_Library_for_Arduino.git">Arduin
 + **Schaltungsabgleich**
  17. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/3_Schaltungsabgleich/2_1_Prinzip_Vierleitermessung.pdf">Prinzip 4-Leitermessung</a>
  18. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/3_Schaltungsabgleich/2_2_Uebung_Abgleich_Messplatine.pdf">Abgleich der Sensorplatine</a>
+ 19. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/3_Schaltungsabgleich/2_3_Schaltung_Messplatine.pdf">Schaltplan der Sensorplatine</a>
 + **Versuch**
- 19. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/4_Versuche/1_3_2_2_PT100_Sensor_mit_Brueckenschaltung_Versuch.pdf">Versuch: Sensor in Brückenschaltung mit Subtrahierverstärker</a> (Vergleich: Simulation und Realversuch)
+ 20. <a href="https://github.com/feslehrer/Temperaturmessung_4L/blob/main/4_Versuche/1_3_2_2_PT100_Sensor_mit_Brueckenschaltung_Versuch.pdf">Versuch: Sensor in Brückenschaltung mit Subtrahierverstärker</a> (Vergleich: Simulation und Realversuch)
 
 @rah, 2025.09.29
